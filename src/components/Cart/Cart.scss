@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Rubik:wght@700&display=swap");
+.cart {
+  max-width: 512px;
+  width: 100%;
+  background-color: #f1f0ff;
+  border-radius: 48px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 32px;
+  margin-bottom: 32px;
+
+  @media (max-width: 1650px) {
+    max-width: 424px;
+    margin-right: 24px;
+  }
+
+  @media (max-width: 1350px) {
+    max-width: 454px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+      font-family: "Rubik", sans-serif;
+      font-family: "Rubik", sans-serif;
+    }
+  }
+
+  @media (max-width: 965px) {
+    max-width: 356px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 333px;
+    margin-right: 0;
+  }
+
+  &:nth-child(3n) {
+    @media (min-width: 1351px) {
+      margin-right: 0;
+    }
+  }
+
+  &_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 132%;
+    text-align: center;
+    color: #232329;
+    margin-top: 33px;
+  }
+
+  &_subTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 154%;
+    text-align: center;
+    color: #494950;
+    margin-top: 16px;
+  }
+
+  &_btn {
+    padding: 22px 32px;
+    width: 196px;
+    height: 68px;
+    background-color: #000000;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.32);
+    border-radius: 50px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+}
